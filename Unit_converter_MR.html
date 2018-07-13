@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Unit_converter_MR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(204,120,50); }
+.s1 { color: rgb(169,183,198); }
+.s2 { color: rgb(165,194,97); }
+.s3 { color: rgb(104,151,187); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+Unit_converter_MR</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">print </span><span class="s2">&quot;Welcome to our Kilometer to Miles converter.&quot;</span><span class="s1"> 
+ 
+ 
+kilometers = int(raw_input(</span><span class="s2">&quot;To get the Miles, please enter number of kilometers: &quot;</span><span class="s1">)) 
+ 
+ 
+</span><span class="s0">while </span><span class="s1">True: 
+    </span><span class="s0">try</span><span class="s1">: 
+        kilometers = float(kilometers.replace(</span><span class="s2">&quot;,&quot;</span><span class="s0">, </span><span class="s2">&quot;.&quot;</span><span class="s1">)) 
+        miles = kilometers * </span><span class="s3">0.621371</span><span class="s1"> 
+        </span><span class="s0">print </span><span class="s1">float(miles) 
+        </span><span class="s0">break</span><span class="s1"> 
+    </span><span class="s0">except </span><span class="s1">ValueError: 
+        </span><span class="s0">print </span><span class="s2">&quot;Please enter only a number!&quot;</span></pre>
+</body>
+</html>
